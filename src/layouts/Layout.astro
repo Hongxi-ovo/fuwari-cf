@@ -103,11 +103,11 @@ const bannerOffset =
 
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="application-name" content="鈴奈咲桜のBlog" />
-		<meta name="theme-color" content="#ff6b9d" />
+		<meta name="application-name" content="虹希のBlog" />
+		<meta name="theme-color" content="#6bbfff" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
-		<meta name="apple-mobile-web-app-title" content="鈴奈咲桜のBlog" />
+		<meta name="apple-mobile-web-app-title" content="虹希のBlog" />
 		<link rel="manifest" href="/manifest.webmanifest" />
 		<link rel="apple-touch-icon" href="/pwa-512x512.png" />
 		{favicons.map(favicon => (
@@ -153,7 +153,7 @@ const bannerOffset =
 
 
 		<slot name="head"></slot>
-		<script is:inline>
+		<!-- <script is:inline>
 		// 域名安全提醒
 		(function checkDomain() {
 			  var allowed = ["www.sakura.ink", "blog.sakura.ink", "sakura.ink", "localhost"];
@@ -186,7 +186,7 @@ const bannerOffset =
 				}
 			} catch (_) {}
 		})();
-		</script>
+		</script> -->
 
 
 
@@ -278,7 +278,7 @@ const bannerOffset =
 		z-index: -1;
 		background-image:
 			linear-gradient(var(--bg-overlay), var(--bg-overlay)),
-			url('/src/assets/images/img.png');
+			url('/135131.png');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -395,7 +395,7 @@ function initCustomScrollbar() {
 		{
 			target: bodyElement,
 			cancel: {
-				nativeScrollbarsOverlaid: true,    // don't initialize the overlay scrollbar if there is a native one
+				nativeScrollbarsOverlaid: true,    
 			}
 		}, {
 		scrollbars: {

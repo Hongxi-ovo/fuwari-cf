@@ -1,34 +1,3 @@
-<!-- # About
-本博客使用框架 `astro` 以及 `Fuwari` 主题
-
-::github{repo="withastro/astro"}
-::github{repo="saicaca/fuwari"} -->
-
-<!-- 使用图床
-::github{repo="cf-pages/Telegraph-Image"} -->
-
-<!-- # About Me
-`@鈴奈咲桜`、`@Hakutyan_bai`这都是我
-
-
-> 27年毕业的大学生
-
->平时喜欢写写博客，找一些好玩的项目搭建到赛博活佛[CloudFlare](https://cloudflare.com)上
-
->学过Unity和C#
-
->也会写一些Minecraft模组
-
-# 好きなもの
-
-
-# 媒体来源
-> 如有侵权，请通过[邮件](mail:yukikohk@163.com)联系我进行删除 -->
-
-<!-- > ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty) -->
 
 <style>
 .language-container {
@@ -66,25 +35,6 @@ a, a:focus, a:active, a:focus-visible {
 
 </style>
 
-<div class="flex items-center justify-center gap-4">
-
-
-  <a href="#zh" onclick="switchLanguage('zh')" class="font-bold overflow-hidden active:scale-95">
-    <div class="btn-card max-w-fit rounded-md h-[2.75rem] px-4 flex items-center justify-start gap-2 bg-black/5 dark:bg-white/10">
-      <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap text-[var(--primary)]/75 dark:text-[var(--primary)]/75">
-        中文
-      </div>
-    </div>
-  </a>
-  <div class="h-6 w-px bg-gray-300 dark:bg-gray-600"></div>
-  <a href="#jp" onclick="switchLanguage('jp')" class="font-bold overflow-hidden active:scale-95">
-    <div class="btn-card max-w-fit rounded-md h-[2.75rem] px-4 flex items-center justify-start gap-2 bg-black/5 dark:bg-white/10">
-      <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap text-[var(--primary)]/75 dark:text-[var(--primary)]/75">
-        日本語
-      </div>
-    </div>
-  </a>
-</div>
 
 <div class="language-container show-zh">
 
@@ -95,20 +45,20 @@ a, a:focus, a:active, a:focus-visible {
 
 # 🌱 关于我
 
-## 👋 你好, 我是 `@鈴奈咲桜`、`@Hakutyan_bai`
+## 👋 你好, 我是 `@虹希`、`@Hongxiovo`
 
 ---
 ### 🎯 我的身份
 
-✍️ 一名中国[🇨🇳]**<span  style="color:#6b66cc; "> 学生 </span>**  
+✍️ 一名中国[🇨🇳]**<span  style="color:#6b66cc; "> 苦逼打工人 </span>**  
 🍻 一名普通的**BiliBili UP主**   
 🛠️ **Minecraft 玩家**   
 
 ---
 ### 🚀 目前重心
 
-⚡ **正在学:** C# | Unity<br>
-📚 **计划学:** JAVA | 前端框架 (Vue)  
+⚡ **正在学:** C++ | UE<br>
+📚 **计划学:** 暂无(苦逼打工人哪来那么多时间安排)
 
 ---
 ### ❤️ 我的兴趣
@@ -119,10 +69,6 @@ a, a:focus, a:active, a:focus-visible {
 
 
 
----
-### 📝 愿望清单
-🕶️ Meta Quest 3  
-💽 NVIDIA RTX 5060
 
 ---
 ### 🌐 使用语言
@@ -130,10 +76,6 @@ a, a:focus, a:active, a:focus-visible {
 - [🇯🇵] 日语 
 
 
-
-### ✉️ 联系我
-- 点击页面 ◀️左侧 或 🔽下方 的 **Email**按钮
-- [i@sakura.ink](mailto:i@sakura.ink)
 
 
 ---
@@ -144,50 +86,6 @@ a, a:focus, a:active, a:focus-visible {
     
 <br/>     
 
-# 🌱 自己紹介  
-
-## 👋 こんにちは、私は `@鈴奈咲桜`、`@Hakutyan_bai`です  
-
----  
-### 🎯 プロフィール  
-
-✍️ 中国[🇨🇳]<span style="color:#6b66cc;"> **学生** </span>  
-🍻 普通の**BiliBili UP主**  
-🛠️ **普通のマインクラフトプレイヤー**  
-
----  
-### 🚀 現在の活動  
-
-⚡ **習得済み:** C# | Unity<br>
-📚 **学習予定:** JAVA | 前端框架 (Vue)  
-
----  
-### ❤️ 趣味  
-
-🌐 **言語:** 日本語 <br>
-🎮 **ゲーム:** マインクラフト<br>
-🤖 **技術オタク:** 自作ハードウェアプロジェクト | サーバー
-
-
-
----  
-### 📝 欲しいものリスト  
-🕶️ Meta Quest 3  
-💽 NVIDIA RTX 5060
-
----  
-### 🌐 使用言語  
-- [🇨🇳] **中国語**  
-- [🇯🇵] 日本語 
-
-
-
----  
-### ✉️ 連絡先  
-- ページの◀️左側 または 🔽下部 の **メールボタン** をクリック  
-- [i@sakura.ink](mailto:i@sakura.ink)
-  </div>
-</div>
 
 <script>
 function switchLanguage(lang) {

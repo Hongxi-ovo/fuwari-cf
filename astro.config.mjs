@@ -30,7 +30,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://blog.sakura.ink/",
+	site: "https://blog.hongxi.moe/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
@@ -124,16 +124,16 @@ export default defineConfig({
 			registerType: "autoUpdate",
 			disable: process.env.DISABLE_PWA === "true",
 			manifest: {
-				name: "鈴奈咲桜的Blog",
-				short_name: "鈴奈咲桜のBlog",
-				description: "愛することを忘れないで",
+				name: "虹希的Blog",
+				short_name: "虹希のBlog",
+				description: "随意发发癫啦~",
 				start_url: "/",
 				scope: "/",
 				display: "standalone",
 				lang: "zh-CN",
 				dir: "ltr",
 				background_color: "#ffffff",
-				theme_color: "#ff6b9d",
+				theme_color: "#6bbfff",
 				orientation: "portrait-primary",
 				icons: [
 					{
